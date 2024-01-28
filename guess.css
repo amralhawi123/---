@@ -191,10 +191,10 @@ footer{
 
 @media (max-width:992px) {
     h1{
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
     .guess-game{
-        margin: 15px auto;
+        margin: 10px auto 15px;
         flex-direction: column;
         align-items: center;
     width: 100%;
@@ -243,6 +243,14 @@ footer{
             font-size: 18px;
             color: gold;
             text-transform: capitalize; 
+        }
+    }
+    .qus-to-guess{  
+        span{
+            font-size: 12px;
+        }
+        p{
+            font-size: 15px;
         }
     }
 }
